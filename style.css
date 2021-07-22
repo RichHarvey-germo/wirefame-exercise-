@@ -1,8 +1,120 @@
+body {
+  display: block;
+}
+
 header {
+  background-color: #7a2020; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+#headerImg {
+  border: thin solid black;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  color: #ABABAB;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+#A {
+  border: thin solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#sec1img {
+  display: block;
+  border: thin solid black;
+  width: 960px;
+  height: 450px;
+
+}
+
+#B {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+#C {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+article {
+  width: 480px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  border: medium solid: black;
+}
+
+
+h3 {
+  font-size:x-large;
+}
+
+p {
+  width: 450px;
+  height: 300px;
+  color: black;
+  overflow: scroll;
+  font-style:italic;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size:medium;
+  display: inline-block;
+  justify-content: left;
+  padding: 10px 24px;
+  margin-top: 20px;
+  transition: 0.35s;
+}
+
+footer, #footImg {
+  text-align:center;
+  width: 100%;
+  height: 100px;
+}
+
+
+/* header {
   display: flex;
   justify-content: space-between;
   border: medium solid black;
-  height: 100px;
+  height: 80px;
   align-items: center;
 }
 
@@ -15,14 +127,13 @@ header ul {
 
 main {
   display: flex;
-  /* flex-direction: row-reverse; */
   flex-wrap: wrap;
   justify-content: center;
 }
 
 
 #A {
-  background-color: blue;
+  background-color: red;
 }
 
 
@@ -60,4 +171,4 @@ div {
 img {
   width: 150px;
   height: 150px;
-}
+} */
